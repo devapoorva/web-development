@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Class</h1>
+    <p>input tag </p>
+    <form accept-charset="UTF-8" action="" autocomplete="on" method="GET" target="_blank">
+        <input type="email" placeholder="Enter email" name="email" required><br><br>
+        <input type="text" placeholder="Enter Name " name="user_name" required minlength="4" maxlength="10" readonly autofocus value="Apoorv"><br><br>
+        <input type="password" placeholder="Enter Password " name="password" required><br><br>
+        <input type="number" disabled placeholder="Enter roll " step=".5" name="roll" required min="5" max="10"> <br><br>
+        <h1>CheckBoxes</h1>
+        <label>Games</label>
+        <input type="checkbox" value="Cricket" name="games" checked> Cricket
+        <input type="checkbox" value="Football" name="games">Football
+        <input type="checkbox" value="Chess" name="games">Chess <br><br>
+        <h1>Radio Gender</h1>
+        <label> 
+            <input type="radio" value="male" name="gender" checked>Male 
+        </label>
+        <label>
+            <input type="radio" value="Female" name="gender" >Female 
+        </label>
+        <h1>Labels</h1>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">Accept Our Terms and Condition</label><br>
+        <h1>Range</h1>
+        <label>
+            Feedback: <input type="range" name="feedback" min="1" max="5">
+        </label>
+        <h1>Patterns </h1>
+        <input pattern="\d*" title="Numbers only"><br><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
