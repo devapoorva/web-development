@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <input name="user_name" placeholder="Enter user name" type="text"> <br>
+        <input name="email" placeholder="Enter email" type="email"> <br>
+        <select name="course">
+            <option value="Html">Html</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript" selected>JavaScript</option>
+        </select> <br>
+        <!-- option group -->
+        <select name="food">
+            <optgroup label="Fruits">
+                <option value="Banana">Banana</option>
+                <option value="Mango">Mango</option>
+                <option value="Grapes">Grapes</option>
+            </optgroup>
+            <optgroup label="Vegetables">
+                <option value="Potato">Potato</option>
+                <option value="Carrot">Carrot</option>
+            </optgroup>
+        </select><br>
+        <input list="fruits" name="fruits">
+        <datalist id="fruits">
+            <option value="Banana">Banana</option>
+            <option value="Mango">Mango</option>
+            <option value="Grapes">Grapes</option>
+        </datalist> <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
