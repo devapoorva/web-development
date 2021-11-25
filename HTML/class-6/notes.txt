@@ -1,0 +1,28 @@
+Form Attributes- 
+1. accept-charset : specify the charset encoding that are to be used for the form 
+    submission
+2. action : specify where to send the form data when form is submitted (path)
+3. autocomplete: specify where a form should have autocomplete(on | off)
+4. enctype: specify how the form data should be encoded when sending form 
+    data to the server (only form post method )
+5. method: specify the http method to use when sending form data (GET | POST)
+6. name : specify the name of a form 
+7. novalidate: specify that the form should not be validated when submitted 
+8. target: specify where to display the response that is received after submitted
+
+# Input Tag :
+1. name : a/c to user
+2. type : password | email | text | number | submit | checkbox | range
+3. value : a/c 
+4. placeholder : a/c hint 
+5. required : 
+6. minlength 
+7. maxlength
+8. min 
+9. max
+10. step 
+11. readonly
+12. disabled 
+13. checked
+14. pattern
+15. title

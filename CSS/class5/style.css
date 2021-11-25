@@ -1,0 +1,12 @@
+h1{
+    border: 1px solid blue;
+    
+}
+.container{
+    display: flex; /* container will be work as a flex container */
+    justify-content: space-around;
+}
+
+.child-2{
+    border: 1px solid green;
+}

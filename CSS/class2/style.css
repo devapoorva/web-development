@@ -1,0 +1,32 @@
+/* universal selector */
+/* *{
+    color: blue;
+} */
+
+h1{
+    color: aqua;
+}
+
+.heading{
+    color: blueviolet;
+}
+
+#heading_second{
+    color: black;
+}
+.heading .heading_third{
+    color: chocolate;
+}
+
+a{
+    color: red;
+}
+/*  */
+a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
