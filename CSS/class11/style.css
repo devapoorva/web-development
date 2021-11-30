@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-family: 'Comforter', cursive;
+    font-size: 16px;
+    line-height: 20px;
+}
+.animal-heading h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.animal-container{
+    display: flex;
+}
+
+.animal{
+    margin: 10px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 30px;
+    box-shadow: 10px 20px 8px #888888;
+}
+
+.animal-image img{
+    border-radius: 30px 30px 0 0;
+}
